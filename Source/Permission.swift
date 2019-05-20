@@ -133,9 +133,7 @@ open class Permission: NSObject {
     #endif
     
     /// The permission domain.
-    public let type: PermissionType {
-        fatalError()
-    }
+    public let type: PermissionType
     
     /// The permission status.
     open var status: PermissionStatus {
